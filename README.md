@@ -54,12 +54,10 @@ After collecting the evaluation results for multiple training regimes you can
 plot the accuracy-vs-ε curve:
 
 ```bash
-python plot_results.py results/standard/eval.json \
-                      results/fgsm/eval.json \
-                      results/trades/eval.json
+python plot_results.py
 ```
 
-The resulting figure is written to ``results/robust_accuracy.png`` by default.
+The resulting figure is written to ``results/robust_accuracy_.png`` by default.
 
 ## Notes
 
