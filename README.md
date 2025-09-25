@@ -7,7 +7,7 @@ three training regimes for MNIST classification:
 * **FGSM adversarial training** using a single-step ℓ∞ perturbation.
 * **TRADES adversarial training** with a KL-divergence based robustness term.
 
-The code follows the specification in the assignment handout: data is drawn from
+The code follows the rule: data is drawn from
 MNIST with pixel intensities scaled to ``[0, 1]`` via ``transforms.ToTensor`` and
 models use the standard convolutional network architecture described in the
 prompt.  Robustness is evaluated against the FGSM attack for
